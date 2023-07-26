@@ -30,11 +30,11 @@ const Home = () => {
 
       <Text
   
-        fontSize={{base: "5xl", md: "6xl", lg: "7xl"}} // // Responsive font sizes based on screen breakpoints
+        fontSize={{base: "4xl", md: "6xl", lg: "7xl"}} // // Responsive font sizes based on screen breakpoints
         textAlign={"center"}
-        fontWeight={"thin"}
+        fontWeight={"bold"}
         color={"whiteAlpha.700"}
-        mt={{ base: "-10", md: "-20" }}// Adjust the marginTop based on screen breakpoints
+        mt={{ base: "-7", md: "-20" }}// Adjust the marginTop based on screen breakpoints
       >
         CryptoVerse
       </Text >
