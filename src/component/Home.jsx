@@ -29,14 +29,14 @@ const Home = () => {
       </motion.div>
 
       <Text
-        fontSize={"6xl"}
+        fontSize={{ base: "3xl", md: "4xl", lg: "6xl" }} // Responsive font sizes based on screen breakpoints
         textAlign={"center"}
         fontWeight={"thin"}
         color={"whiteAlpha.700"}
-        mt={"-20"}
+        mt={{ base: "-10", md: "-20" }} // Adjust the marginTop based on screen breakpoints
       >
         CryptoVerse
-      </Text >
+      </Text>
     </Box>
   );
 };
